@@ -1,11 +1,12 @@
 export const eventTypes = [
-  { id: "all", label: "All events" },
-  { id: "academic", label: "Academic" },
-  { id: "social", label: "Social" },
-  { id: "arts", label: "Arts" },
+  { id: "all", label: "All items" },
+  { id: "academic-support", label: "Academic Support" },
+  { id: "student-life", label: "Student Life" },
+  { id: "arts-culture", label: "Arts & Culture" },
   { id: "wellness", label: "Wellness" },
-  { id: "career", label: "Career" },
-  { id: "build", label: "Build / Create" },
+  { id: "community-faith", label: "Community & Faith" },
+  { id: "maker-programs", label: "Maker / Build" },
+  { id: "campus-resources", label: "Campus Resources" },
 ];
 
 const millLatheSignupUrl =
@@ -44,7 +45,7 @@ const academicSupportResources = [
   {
     id: "student-success-office-hours",
     title: "Student Success Office Hours",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Weekdays",
     day: "Mon-Fri",
     startTime: "8:30 AM",
@@ -60,7 +61,7 @@ const academicSupportResources = [
   {
     id: "biology-backup-hours",
     title: "Biology Backup",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Tue/Thu",
     day: "Tue-Thu",
     startTime: "5:30 PM",
@@ -76,7 +77,7 @@ const academicSupportResources = [
   {
     id: "calculus-help-center-hours",
     title: "Calculus Help Center",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Sun/Tue/Thu",
     day: "Sun/Tue/Thu",
     startTime: "7:30 PM",
@@ -92,7 +93,7 @@ const academicSupportResources = [
   {
     id: "intro-chemistry-help-hours",
     title: "Introductory Chemistry Help",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Sun/Tue/Thu",
     day: "Sun/Tue/Thu",
     startTime: "7:00 PM",
@@ -108,7 +109,7 @@ const academicSupportResources = [
   {
     id: "organic-chemistry-help-hours",
     title: "Organic Chemistry Help",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Sun/Tue/Thu",
     day: "Sun/Tue/Thu",
     startTime: "7:00 PM",
@@ -124,7 +125,7 @@ const academicSupportResources = [
   {
     id: "computer-science-help-desk-hours",
     title: "Computer Science Help Desk",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Sun-Thu",
     day: "Sun-Thu",
     startTime: "7:00 PM",
@@ -140,7 +141,7 @@ const academicSupportResources = [
   {
     id: "data-analytics-help-desk-hours",
     title: "Data Analytics Help Desk",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Sun/Tue/Thu",
     day: "Sun/Tue/Thu",
     startTime: "4:30 PM",
@@ -156,7 +157,7 @@ const academicSupportResources = [
   {
     id: "economics-support-center-hours",
     title: "Economics Support Center",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Mon/Tue",
     day: "Mon-Tue",
     startTime: "7:00 PM",
@@ -172,7 +173,7 @@ const academicSupportResources = [
   {
     id: "ecbe-help-desk-hours",
     title: "ECBE Help Desk",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Sun-Thu",
     day: "Sun-Thu",
     startTime: "5:00 PM",
@@ -188,7 +189,7 @@ const academicSupportResources = [
   {
     id: "geosciences-help-morning",
     title: "Geosciences Support",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Tuesdays",
     day: "Tue",
     startTime: "10:30 AM",
@@ -204,7 +205,7 @@ const academicSupportResources = [
   {
     id: "geosciences-help-evening",
     title: "Geosciences Support",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Tuesdays",
     day: "Tue",
     startTime: "7:30 PM",
@@ -220,7 +221,7 @@ const academicSupportResources = [
   {
     id: "language-center-hours",
     title: "Language Center Hours",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Mon-Fri",
     day: "Mon-Fri",
     startTime: "Varies",
@@ -236,7 +237,7 @@ const academicSupportResources = [
   {
     id: "ask-a-librarian-hours",
     title: "Ask a Librarian / Research Help",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "By appointment",
     day: "Daily",
     startTime: "By appointment",
@@ -252,7 +253,7 @@ const academicSupportResources = [
   {
     id: "mechanical-engineering-help-desk-hours",
     title: "Mechanical Engineering Help Desk",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Mon/Thu",
     day: "Mon/Thu",
     startTime: "7:00 PM",
@@ -268,7 +269,7 @@ const academicSupportResources = [
   {
     id: "physics-study-center-hours",
     title: "Physics Study Center",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Tue/Thu",
     day: "Tue/Thu",
     startTime: "7:00 PM",
@@ -284,7 +285,7 @@ const academicSupportResources = [
   {
     id: "research-mentor-hours",
     title: "Research Mentor Appointments",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "By appointment",
     day: "Daily",
     startTime: "By appointment",
@@ -300,7 +301,7 @@ const academicSupportResources = [
   {
     id: "supplemental-instruction-overview",
     title: "Supplemental Instruction Supported Courses",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "During term",
     day: "Daily",
     startTime: "Varies by course",
@@ -340,7 +341,7 @@ const supplementalInstructionSessions = [
   return {
     id,
     title,
-    type: "academic",
+    type: "academic-support",
     dateLabel: "During term",
     day,
     startTime,
@@ -391,7 +392,7 @@ const millLatheSessions = [
 ].map(([isoDate, dateLabel, day, startTime, endTime], index) => ({
   id: `make-lab-mill-lathe-${isoDate}-${index + 1}`,
   title: "Mill or Lathe Certification Session",
-  type: "build",
+  type: "maker-programs",
   isoDate,
   dateLabel,
   day,
@@ -560,7 +561,7 @@ const laserCutterSessions = [
 ].map(([isoDate, dateLabel, day, startTime, endTime], index) => ({
   id: `make-lab-laser-${isoDate}-${index + 1}`,
   title: "Make Lab Laser Cutter Certification or Use",
-  type: "build",
+  type: "maker-programs",
   isoDate,
   dateLabel,
   day,
@@ -609,7 +610,7 @@ const weldingSessions = [
 ].map(([isoDate, dateLabel, day, startTime, endTime], index) => ({
   id: `make-lab-welding-${isoDate}-${index + 1}`,
   title: "Maker Web Welding Certification",
-  type: "build",
+  type: "maker-programs",
   isoDate,
   dateLabel,
   day,
@@ -628,7 +629,7 @@ export const campusEvents = [
   {
     id: "via-aquarium-trip",
     title: "VIA Aquarium Trip!",
-    type: "social",
+    type: "student-life",
     isoDate: "2026-05-03",
     dateLabel: "May 3",
     day: "Sun",
@@ -646,7 +647,7 @@ export const campusEvents = [
   {
     id: "spring-crafts-west-social",
     title: "Pots, Petals, and Pastels: Spring Crafts!",
-    type: "social",
+    type: "student-life",
     isoDate: "2026-05-03",
     dateLabel: "May 3",
     day: "Sun",
@@ -663,7 +664,7 @@ export const campusEvents = [
   {
     id: "fencing-practice-may-2",
     title: "Fencing Practice",
-    type: "social",
+    type: "student-life",
     isoDate: "2026-05-02",
     dateLabel: "Today",
     day: "Sat",
@@ -680,7 +681,7 @@ export const campusEvents = [
   {
     id: "gaming4u-miniature-painting",
     title: "Gaming4U Miniature Painting Event",
-    type: "social",
+    type: "student-life",
     isoDate: "2026-05-03",
     dateLabel: "May 3",
     day: "Sun",
@@ -697,7 +698,7 @@ export const campusEvents = [
   {
     id: "heavenly-voices-rehearsal-may-3",
     title: "Heavenly Voices Choir Meeting + Rehearsal",
-    type: "social",
+    type: "arts-culture",
     isoDate: "2026-05-03",
     dateLabel: "May 3",
     day: "Sun",
@@ -714,7 +715,7 @@ export const campusEvents = [
   {
     id: "study-sessions-may-3",
     title: "Study Sessions",
-    type: "academic",
+    type: "academic-support",
     isoDate: "2026-05-03",
     dateLabel: "May 3",
     day: "Sun",
@@ -731,7 +732,7 @@ export const campusEvents = [
   {
     id: "ace-meeting-may-3",
     title: "ACE Meeting",
-    type: "social",
+    type: "student-life",
     isoDate: "2026-05-03",
     dateLabel: "May 3",
     day: "Sun",
@@ -748,7 +749,7 @@ export const campusEvents = [
   {
     id: "minerva-carnival-may-3",
     title: "Minerva Carnival",
-    type: "social",
+    type: "student-life",
     isoDate: "2026-05-03",
     dateLabel: "May 3",
     day: "Sun",
@@ -765,7 +766,7 @@ export const campusEvents = [
   {
     id: "sunday-night-mass-may-3",
     title: "On-Campus Sunday Night Mass",
-    type: "social",
+    type: "community-faith",
     isoDate: "2026-05-03",
     dateLabel: "May 3",
     day: "Sun",
@@ -782,7 +783,7 @@ export const campusEvents = [
   {
     id: "hackunion-demos",
     title: "HackUnion Demo Presentations",
-    type: "build",
+    type: "maker-programs",
     isoDate: "2026-05-02",
     dateLabel: "Today",
     day: "Sat",
@@ -799,7 +800,7 @@ export const campusEvents = [
   {
     id: "mandeville-gallery-open",
     title: "Mandeville Gallery Open Hours",
-    type: "arts",
+    type: "arts-culture",
     dateLabel: "Weekends",
     day: "Sat",
     startTime: "10:00 AM",
@@ -815,7 +816,7 @@ export const campusEvents = [
   {
     id: "yulman-box-office",
     title: "Yulman Theater Box Office",
-    type: "arts",
+    type: "arts-culture",
     dateLabel: "Weekdays",
     day: "Mon-Fri",
     startTime: "1:00 PM",
@@ -831,7 +832,7 @@ export const campusEvents = [
   {
     id: "student-activities-office",
     title: "Student Activities Office Hours",
-    type: "social",
+    type: "student-life",
     dateLabel: "Weekdays",
     day: "Mon-Fri",
     startTime: "8:30 AM",
@@ -864,7 +865,7 @@ export const campusEvents = [
   {
     id: "schaffer-library-hours",
     title: "Schaffer Library Building Hours",
-    type: "academic",
+    type: "campus-resources",
     dateLabel: "Daily",
     day: "Daily",
     startTime: "Varies",
@@ -880,7 +881,7 @@ export const campusEvents = [
   {
     id: "writing-center-hours",
     title: "Writing Center Appointments",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "During term",
     day: "Sun-Thu",
     startTime: "3:00 PM",
@@ -896,7 +897,7 @@ export const campusEvents = [
   {
     id: "accommodative-services-hours",
     title: "Accommodative Services Office Hours",
-    type: "academic",
+    type: "academic-support",
     dateLabel: "Weekdays",
     day: "Mon-Fri",
     startTime: "9:00 AM",
@@ -928,7 +929,7 @@ export const campusEvents = [
   {
     id: "kenney-center-hours",
     title: "Kenney Center Community Engagement Hours",
-    type: "social",
+    type: "community-faith",
     dateLabel: "Weekdays",
     day: "Mon-Fri",
     startTime: "8:00 AM",
