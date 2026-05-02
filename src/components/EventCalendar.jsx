@@ -34,6 +34,8 @@ function getLocationItem(event) {
     ["West Beach Lawn", "west-beach-lawn"],
     ["Lower Aerobics Room", "alumni-gym"],
     ["Reamer", "reamer-campus-center"],
+    ["RCC", "reamer-campus-center"],
+    ["Beuth", "beuth-house"],
     ["Kenney Center", "kenney-center"],
     ["Make Lab", "maker-make-lab"],
   ];

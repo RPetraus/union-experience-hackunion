@@ -36,6 +36,8 @@ function getBuildingItemIdFromLocation(location = "") {
   if (location.startsWith("West Beach Lawn")) return "west-beach-lawn";
   if (location.startsWith("Lower Aerobics Room")) return "alumni-gym";
   if (location.startsWith("Reamer")) return "reamer-campus-center";
+  if (location.startsWith("RCC")) return "reamer-campus-center";
+  if (location.startsWith("Beuth")) return "beuth-house";
   if (location.startsWith("Kenney Center")) return "kenney-center";
   if (location.startsWith("Make Lab")) return "maker-make-lab";
   return "student-success";
@@ -627,6 +629,163 @@ const weldingSessions = [
 
 export const campusEvents = [
   {
+    id: "beuth-weekly-council-meeting-2026-05-04",
+    title: "Weekly Council Meeting",
+    type: "student-life",
+    isoDate: "2026-05-04",
+    dateLabel: "May 4",
+    day: "Mon",
+    startTime: "12:50 PM",
+    endTime: "1:30 PM",
+    location: "Beuth House Great Room",
+    locationItemId: "beuth-house",
+    short: "Weekly Beuth House council meeting to discuss and plan upcoming events.",
+    description:
+      "Hosted by Beuth House. Join the weekly council meeting to discuss and plan upcoming events for Beuth House.",
+    signupUrl: "https://union.presence.io/events",
+    source: "Union Presence / Beuth House",
+  },
+  {
+    id: "beuth-cornhole-tournament-2026-05-10",
+    title: "Cornhole Tournament",
+    type: "student-life",
+    isoDate: "2026-05-10",
+    dateLabel: "May 10",
+    day: "Sun",
+    startTime: "1:00 PM",
+    endTime: "",
+    location: "Beuth Lawn",
+    locationItemId: "beuth-house",
+    short: "Cornhole tournament hosted at Beuth Lawn.",
+    description:
+      "Hosted by Beuth House. Cornhole tournament on Beuth Lawn.",
+    signupUrl: "https://union.presence.io/events",
+    source: "Union Presence / Beuth House",
+  },
+  {
+    id: "beuth-weekly-council-meeting-2026-05-11",
+    title: "Weekly Council Meeting",
+    type: "student-life",
+    isoDate: "2026-05-11",
+    dateLabel: "May 11",
+    day: "Mon",
+    startTime: "12:50 PM",
+    endTime: "1:30 PM",
+    location: "Beuth House Great Room",
+    locationItemId: "beuth-house",
+    short: "Weekly Beuth House council meeting to discuss and plan upcoming events.",
+    description:
+      "Hosted by Beuth House. Join the weekly council meeting to discuss and plan upcoming events for Beuth House.",
+    signupUrl: "https://union.presence.io/events",
+    source: "Union Presence / Beuth House",
+  },
+  {
+    id: "beuth-weekly-council-meeting-2026-05-18",
+    title: "Weekly Council Meeting",
+    type: "student-life",
+    isoDate: "2026-05-18",
+    dateLabel: "May 18",
+    day: "Mon",
+    startTime: "12:50 PM",
+    endTime: "1:30 PM",
+    location: "Beuth House Great Room",
+    locationItemId: "beuth-house",
+    short: "Weekly Beuth House council meeting to discuss and plan upcoming events.",
+    description:
+      "Hosted by Beuth House. Join the weekly council meeting to discuss and plan upcoming events for Beuth House.",
+    signupUrl: "https://union.presence.io/events",
+    source: "Union Presence / Beuth House",
+  },
+  {
+    id: "beuth-weekly-council-meeting-2026-05-25",
+    title: "Weekly Council Meeting",
+    type: "student-life",
+    isoDate: "2026-05-25",
+    dateLabel: "May 25",
+    day: "Mon",
+    startTime: "12:50 PM",
+    endTime: "1:30 PM",
+    location: "Beuth House Great Room",
+    locationItemId: "beuth-house",
+    short: "Weekly Beuth House council meeting to discuss and plan upcoming events.",
+    description:
+      "Hosted by Beuth House. Join the weekly council meeting to discuss and plan upcoming events for Beuth House.",
+    signupUrl: "https://union.presence.io/events",
+    source: "Union Presence / Beuth House",
+  },
+  {
+    id: "beuth-weekly-council-meeting-2026-06-01",
+    title: "Weekly Council Meeting",
+    type: "student-life",
+    isoDate: "2026-06-01",
+    dateLabel: "Jun 1",
+    day: "Mon",
+    startTime: "12:50 PM",
+    endTime: "1:30 PM",
+    location: "Beuth House Great Room",
+    locationItemId: "beuth-house",
+    short: "Weekly Beuth House council meeting to discuss and plan upcoming events.",
+    description:
+      "Hosted by Beuth House. Join the weekly council meeting to discuss and plan upcoming events for Beuth House.",
+    signupUrl: "https://union.presence.io/events",
+    source: "Union Presence / Beuth House",
+  },
+  {
+    id: "faculty-appreciation-flower-giveaway-2026-05-04",
+    title: "Faculty Appreciation Flower Giveaway",
+    type: "student-life",
+    isoDate: "2026-05-04",
+    dateLabel: "May 4",
+    day: "Mon",
+    startTime: "11:00 AM",
+    endTime: "2:00 PM",
+    location: "Outside of RCC",
+    locationItemId: "reamer-campus-center",
+    short:
+      "Pick up flowers and write a note to show appreciation for Union faculty and staff.",
+    description:
+      "Hosted by Sociology Club and co-hosted by Kappa Alpha Literary Society. Students can pick up flowers and write a heartfelt note to show appreciation for Union faculty and staff.",
+    signupUrl: "https://union.presence.io/events",
+    source: "Union Presence / Sociology Club",
+  },
+  {
+    id: "faculty-appreciation-flower-giveaway-2026-05-05",
+    title: "Faculty Appreciation Flower Giveaway",
+    type: "student-life",
+    isoDate: "2026-05-05",
+    dateLabel: "May 5",
+    day: "Tue",
+    startTime: "11:00 AM",
+    endTime: "2:00 PM",
+    location: "Outside of RCC",
+    locationItemId: "reamer-campus-center",
+    short:
+      "Pick up flowers and write a note to show appreciation for Union faculty and staff.",
+    description:
+      "Hosted by Sociology Club and co-hosted by Kappa Alpha Literary Society. Students can pick up flowers and write a heartfelt note to show appreciation for Union faculty and staff.",
+    signupUrl: "https://union.presence.io/events",
+    source: "Union Presence / Sociology Club",
+  },
+  {
+    id: "faculty-appreciation-flower-giveaway-2026-05-07",
+    title: "Faculty Appreciation Flower Giveaway",
+    type: "student-life",
+    isoDate: "2026-05-07",
+    dateLabel: "May 7",
+    day: "Thu",
+    startTime: "11:00 AM",
+    endTime: "2:00 PM",
+    location: "Outside of RCC",
+    locationItemId: "reamer-campus-center",
+    short:
+      "Pick up flowers and write a note to show appreciation for Union faculty and staff.",
+    description:
+      "Hosted by Sociology Club and co-hosted by Kappa Alpha Literary Society. Students can pick up flowers and write a heartfelt note to show appreciation for Union faculty and staff.",
+    signupUrl: "https://union.presence.io/events",
+    source: "Union Presence / Sociology Club",
+  },
+  {
+    id: "via-aquarium-trip",
     id: "via-aquarium-trip",
     title: "VIA Aquarium Trip!",
     type: "student-life",

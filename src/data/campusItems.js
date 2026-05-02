@@ -41,6 +41,31 @@ const makeLabCertificationLinks = [
 
 export const campusItems = [
   {
+    id: "beuth-house",
+    name: "Beuth House",
+    category: "events",
+    type: "Minerva House / Event Space",
+    lat: 42.81608796052325,
+    lng: -73.92919418654212,
+    location: "Beuth House",
+    hours: "Building and event access varies by schedule",
+    short: "Minerva house space used for council meetings, student events, and Beuth programming.",
+    description:
+      "Beuth House is a Minerva house and student event space. Events such as Beuth House council meetings and lawn programming can be attached here on the map.",
+    url: "https://union.presence.io/events",
+    sourceNote: "Marker aligned to the provided Beuth House coordinate.",
+    tags: [
+      "beuth",
+      "beuth house",
+      "beuth lawn",
+      "minerva",
+      "events",
+      "student life",
+      "council meeting",
+      "cornhole",
+    ],
+  },
+  {
     id: "reamer-campus-center",
     name: "Reamer Campus Center",
     category: "study",
